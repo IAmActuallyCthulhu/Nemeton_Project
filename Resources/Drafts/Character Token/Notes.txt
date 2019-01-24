@@ -1,0 +1,13 @@
+Red:
+Counter Clockwise
+min -30
+max 145
+use 0-100
+
+White:
+Export assets upside down
+Clockwise
+Flip node upside down
+min -35
+max 140
+use 0 - 100

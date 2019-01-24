@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://DeleteMe/TestEntity.tscn" type="PackedScene" id=1]
+
+[node name="Combat" type="Node2D"]
+
+[node name="TestEntity" parent="." index="0" instance=ExtResource( 1 )]
+
+position = Vector2( 508, 248 )
+
+[node name="DragHint" type="Line2D" parent="." index="1"]
+
+points = PoolVector2Array(  )
+width = 4.0
+default_color = Color( 1, 0, 0, 1 )
+texture_mode = 201873584
+sharp_limit = 2.0
+round_precision = 8
+
+
